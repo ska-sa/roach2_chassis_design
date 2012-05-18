@@ -1,0 +1,7 @@
+<cfd_design_studies version="12.0.20100830" user_name="Admin">
+ <design_study instance_id="id_not_defined" name="ROACH_2_PCB" folder="E:/Mechanical/PRO Eng/Roach2/PCB - Revision 5.1-AllFab/ROACH_2_PCB" study_id="a8eb5efc-73cf-4088-a21d-1512c277239e">
+  <design launcher_type="CP_PROE" name="Design 1" model_id="ROACH_2_PCB.tsl" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>
