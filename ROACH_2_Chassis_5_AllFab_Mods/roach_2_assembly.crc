@@ -1,7 +1,7 @@
 ﻿  MODEL ROACH_2_ASSEMBLY :
  
 
-  4 CIRCULAR REFERENCE LOOPS FOUND
+  5 CIRCULAR REFERENCE LOOPS FOUND
  
 
    LOOP #  1
@@ -64,6 +64,26 @@ Feature number 6 (CHAMFER_1, id = 243)
 
 Feature number 5 (PROTRUSION, id = 20) 
   in model BACK_PANEL_SFP refers to:
+
+Feature number 6 (COMPONENT, id = 21) 
+  in model ROACH_2_ASSEMBLY refers to:
+
+Feature number 10 (COMPONENT, id = 43) 
+  in model ROACH_2_CHASSIS must follow after:
+
+Feature number 7 (COMPONENT, id = 542) 
+  in model ROACH_2_CHASSIS - circle closed.
+
+
+   LOOP #  5
+
+   Depth of loop is 5
+
+Feature number 7 (COMPONENT, id = 542) 
+  in model ROACH_2_CHASSIS refers to:
+
+Feature number 69 (SMT CUT, id = 13086) 
+  in model ROACH_2_CHASSIS_SHEET_REV_2 refers to:
 
 Feature number 6 (COMPONENT, id = 21) 
   in model ROACH_2_ASSEMBLY refers to:
