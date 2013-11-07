@@ -1,7 +1,7 @@
 999
-DXF file: D:\Working Folder\roach2_chassis_design\roach_2_manufacture\dxf\roach-2-chassis-front-panel.dxf
+DXF file: roach-2-front-panel.dxf
 999
-Pro/ENGINEER 2010280 by Parametric Technology Corporation
+Pro/ENGINEER 2013230 by Parametric Technology Corporation
   0
 SECTION
   2
@@ -75,7 +75,7 @@ $DIMASZ
   9
 $DIMEXO
  40
-7.43125
+1.5
   9
 $DIMDLI
  40
@@ -83,7 +83,7 @@ $DIMDLI
   9
 $DIMEXE
  40
-21.402
+1.0
   9
 $DIMCEN
  40
@@ -115,11 +115,19 @@ $DIMTFAC
   9
 $DIMTP
  40
-0.01
+0.0
   9
 $DIMTM
  40
-0.01
+0.0
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMDSEP
+ 70
+44
   9
 $PDMODE
  70
@@ -131,7 +139,7 @@ $PDSIZE
   9
 $HANDSEED
   5
-5BB
+327
   9
 $TILEMODE
  70
@@ -629,7 +637,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-01___PRT_ALL_DTM_PLN
+AXES
  70
 0
  62
@@ -649,7 +657,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-01___PRT_DEF_DTM_PLN
+CSYS
  70
 0
  62
@@ -669,13207 +677,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-02___PRT_ALL_AXES
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-200
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-03___PRT_ALL_CURVES
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-201
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-04___PRT_ALL_DTM_PNT
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-202
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-05___PRT_ALL_DTM_CSYS
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-203
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-05___PRT_DEF_DTM_CSYS
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-204
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-06___PRT_ALL_SURFS
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-205
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-AXES
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-206
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-CSYS
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-207
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_101
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-208
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_109
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-209
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_110
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_115
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_12
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_123
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_131
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_133
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-20F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_135
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-210
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_144
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-211
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_152
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-212
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_156
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-213
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1594
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-214
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1621
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-215
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1624
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-216
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1635
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-217
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1638
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-218
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1639
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-219
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1643
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_166
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1677
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1679
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_168
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1694
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-21F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1695
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-220
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1704
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-221
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_172
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-222
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1722
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-223
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1723
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-224
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1738
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-225
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_175
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-226
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1777
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-227
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1779
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-228
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_179
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-229
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1825
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_183
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1832
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1849
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1857
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1870
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-22F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_189
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-230
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_190
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-231
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1905
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-232
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1911
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-233
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1913
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-234
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1923
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-235
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1938
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-236
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_194
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-237
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_1942
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-238
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_197
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-239
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_198
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_2
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_205
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_210
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_229
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23121
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-23F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23128
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-240
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23133
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-241
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23138
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-242
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23143
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-243
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23148
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-244
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23153
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-245
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23158
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-246
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23163
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-247
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23168
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-248
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23173
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-249
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23178
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23183
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23188
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23193
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23198
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23203
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-24F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23208
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-250
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23213
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-251
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23218
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-252
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23223
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-253
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23228
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-254
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23233
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-255
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23238
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-256
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23243
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-257
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23248
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-258
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23253
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-259
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23258
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23263
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23268
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23273
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23279
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23284
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-25F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23289
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-260
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23295
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-261
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23301
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-262
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23306
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-263
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23312
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-264
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23318
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-265
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23324
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-266
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23330
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-267
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23335
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-268
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23341
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-269
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23346
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23351
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23357
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23362
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23367
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23372
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-26F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23377
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-270
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_23382
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-271
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_234
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-272
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_238
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-273
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_242
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-274
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_245
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-275
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_252
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-276
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_258
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-277
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_261
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-278
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_266
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-279
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_269
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_27
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_278
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_281
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_287
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_288
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-27F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_295
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-280
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_296
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-281
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_300
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-282
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_306
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-283
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_308
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-284
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_309
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-285
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-286
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31132
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-287
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31133
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-288
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31137
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-289
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31144
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31169
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31183
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31189
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31199
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31201
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-28F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31239
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-290
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31241
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-291
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31260
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-292
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31264
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-293
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31277
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-294
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31295
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-295
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31298
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-296
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31304
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-297
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31305
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-298
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31316
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-299
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31369
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31376
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31401
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31403
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31418
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31427
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-29F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31428
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31431
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31434
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31441
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31443
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31445
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31446
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31447
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31456
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31461
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2A9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31468
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31474
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31481
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31487
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31495
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31501
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2AF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31502
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31505
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31519
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31520
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31526
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31530
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31533
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31539
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_31540
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_318
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2B9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_324
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32606
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32611
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32616
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32621
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32626
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2BF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32631
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32636
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32641
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32646
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32651
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32656
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32661
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32666
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32671
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32676
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2C9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32681
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32686
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32691
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32695
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32701
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32706
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2CF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32711
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32716
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32721
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32726
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32731
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32736
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32741
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32746
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32751
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32756
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2D9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32761
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32766
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32771
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32776
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32781
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32786
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2DF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32791
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32796
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32801
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32806
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32811
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32816
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32821
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32826
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32831
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32836
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2E9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32841
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2EA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32846
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2EB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32851
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2EC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32856
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2ED
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32861
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2EE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32866
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2EF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32871
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32876
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32881
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32886
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32891
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32896
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32901
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32906
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32911
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32916
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2F9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32921
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32926
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32931
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32936
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32941
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32946
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-2FF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32951
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-300
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32956
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-301
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32961
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-302
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32966
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-303
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32971
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-304
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32976
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-305
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32981
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-306
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32986
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-307
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32991
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-308
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_32996
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-309
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33001
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33006
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33011
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33016
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33021
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33026
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-30F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33031
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-310
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33036
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-311
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33041
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-312
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33046
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-313
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33051
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-314
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33056
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-315
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33061
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-316
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33066
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-317
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33071
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-318
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33076
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-319
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33081
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33086
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33091
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33096
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33101
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33106
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-31F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33111
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-320
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33236
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-321
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33241
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-322
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33246
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-323
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_33251
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-324
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35164
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-325
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35171
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-326
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35176
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-327
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35182
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-328
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35188
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-329
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35193
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35198
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35203
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35208
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35214
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35219
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-32F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35224
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-330
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35229
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-331
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35234
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-332
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35239
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-333
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35244
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-334
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35249
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-335
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35254
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-336
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35259
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-337
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35264
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-338
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35270
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-339
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35275
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35280
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35285
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35290
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35295
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35300
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-33F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35305
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-340
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35311
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-341
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35316
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-342
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35322
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-343
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35327
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-344
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35332
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-345
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35337
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-346
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35343
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-347
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35348
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-348
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35353
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-349
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35358
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35363
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35368
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35373
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35378
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35504
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-34F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35509
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-350
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35514
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-351
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35520
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-352
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35587
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-353
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35592
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-354
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35597
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-355
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35602
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-356
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35607
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-357
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35612
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-358
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35617
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-359
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35622
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35627
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35632
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35637
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35642
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35647
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-35F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35652
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-360
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35657
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-361
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35662
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-362
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35667
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-363
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35672
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-364
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35677
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-365
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35682
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-366
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35687
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-367
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35692
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-368
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35799
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-369
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35804
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35809
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35814
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35819
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35824
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35829
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-36F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35834
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-370
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35839
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-371
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35844
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-372
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35849
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-373
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35854
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-374
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35859
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-375
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35864
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-376
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35869
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-377
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35874
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-378
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35879
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-379
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35884
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35889
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35894
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35899
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35904
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35909
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-37F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35914
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-380
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35919
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-381
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35924
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-382
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35929
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-383
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35934
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-384
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35939
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-385
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35944
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-386
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35949
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-387
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35954
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-388
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35959
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-389
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35964
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35969
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35974
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35979
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35984
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35989
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-38F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35994
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-390
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_35999
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-391
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36004
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-392
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36009
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-393
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36014
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-394
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36019
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-395
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36024
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-396
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36029
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-397
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36034
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-398
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36039
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-399
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36044
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36049
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36054
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36059
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36064
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36069
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-39F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36074
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36079
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36084
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36089
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36094
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36099
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36104
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36109
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36114
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36119
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3A9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36124
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36129
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36134
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36139
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36144
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36149
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3AF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36154
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36159
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36164
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36169
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36174
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36179
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36184
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36189
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36194
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36199
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3B9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36204
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36209
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36214
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36219
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36224
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36229
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3BF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36234
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36239
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36244
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36249
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36254
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36259
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36264
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36269
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36274
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36279
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3C9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36284
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36289
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36294
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36299
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36304
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36309
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3CF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36314
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36319
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36324
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36329
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36334
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36339
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36344
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36349
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36354
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36359
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3D9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36364
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36369
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36374
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36379
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36384
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36389
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3DF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36394
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36399
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36404
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36409
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36414
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36419
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36424
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36429
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36434
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36439
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3E9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36444
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3EA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36449
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3EB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36454
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3EC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36459
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3ED
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36464
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3EE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36469
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3EF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36474
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F0
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36479
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36484
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36489
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F3
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36494
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F4
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36499
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F5
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36504
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F6
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36509
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F7
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36514
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F8
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36519
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3F9
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36524
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FA
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36529
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FB
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36534
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FC
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36539
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FD
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36544
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FE
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_36549
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-3FF
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_39
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-400
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40187
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-401
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40192
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-402
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40197
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-403
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40202
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-404
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40208
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-405
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40213
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-406
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40218
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-407
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40223
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-408
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40228
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-409
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40233
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40238
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40243
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40248
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40253
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40258
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-40F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40263
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-410
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40268
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-411
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40273
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-412
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40278
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-413
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40283
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-414
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40288
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-415
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40293
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-416
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40298
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-417
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40303
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-418
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40308
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-419
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40313
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40318
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40323
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40711
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40713
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40717
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-41F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40722
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-420
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40727
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-421
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40732
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-422
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40737
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-423
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40742
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-424
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40747
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-425
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40752
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-426
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40757
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-427
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40762
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-428
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40767
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-429
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40772
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40777
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40782
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40787
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40792
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40797
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-42F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40802
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-430
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40807
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-431
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40812
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-432
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40817
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-433
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40822
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-434
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40827
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-435
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40832
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-436
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40837
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-437
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40842
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-438
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40847
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-439
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40852
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40857
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40862
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40867
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40872
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40877
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-43F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40882
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-440
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40887
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-441
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40892
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-442
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40897
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-443
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40902
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-444
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40907
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-445
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40912
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-446
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40917
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-447
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40922
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-448
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40927
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-449
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40932
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40937
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40942
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40947
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40952
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40957
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-44F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40962
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-450
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40967
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-451
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_40972
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-452
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41079
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-453
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41085
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-454
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41095
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-455
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41105
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-456
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41115
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-457
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41126
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-458
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41136
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-459
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41146
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41156
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41165
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41175
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41186
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41196
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-45F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41206
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-460
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41217
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-461
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41227
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-462
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41237
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-463
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41248
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-464
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41258
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-465
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41267
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-466
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41278
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-467
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41288
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-468
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41298
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-469
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41309
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41319
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41330
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41340
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41350
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41361
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-46F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41369
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-470
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41374
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-471
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41379
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-472
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41384
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-473
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41389
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-474
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41394
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-475
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41399
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-476
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41404
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-477
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41409
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-478
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41414
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-479
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41419
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41424
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41429
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41434
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41439
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41444
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-47F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41449
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-480
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41454
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-481
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41459
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-482
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41464
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-483
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41469
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-484
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41474
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-485
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41477
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-486
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_41480
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-487
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_43
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-488
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_49
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-489
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_51
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48A
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_52
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48B
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_54
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48C
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_69
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48D
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_78
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48E
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_84
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-48F
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_90
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-490
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-LAYER_98
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-491
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-NONE
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-492
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
 PLANES
- 70
-0
- 62
-7
-  6
-CONTINUOUS
-370
--3
-390
-F
-  0
-LAYER
-  5
-493
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-WHITE
  70
 0
  62
@@ -13921,7 +729,7 @@ txt
   0
 STYLE
   5
-494
+200
 100
 AcDbSymbolTableRecord
 100
@@ -13983,7 +791,7 @@ AcDbSymbolTable
   0
 APPID
   5
-495
+201
 100
 AcDbSymbolTableRecord
 100
@@ -14007,7 +815,7 @@ AcDbSymbolTable
   0
 BLOCK_RECORD
   5
-496
+202
 100
 AcDbSymbolTableRecord
 100
@@ -14017,7 +825,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-497
+203
 100
 AcDbSymbolTableRecord
 100
@@ -14043,7 +851,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-498
+204
 100
 AcDbSymbolTableRecord
 100
@@ -14061,19 +869,19 @@ STANDARD
  41
 3.5
  42
-0.0625
+1.5
  43
 0.38
  44
-0.18
+1.0
  45
 0.0
  46
 0.0
  47
-0.01
+0.0
  48
-0.01
+0.0
 140
 3.5
 141
@@ -14089,7 +897,7 @@ STANDARD
 146
 1.0
 147
-0.09
+0.625
  71
 1.0
  72
@@ -14127,9 +935,9 @@ STANDARD
 270
 2
 271
-2
+0
 272
-2
+0
 273
 2
 274
@@ -14156,6 +964,8 @@ STANDARD
 0
 340
 11
+278
+44
   0
 ENDTAB
   0
@@ -14241,7 +1051,7 @@ ENTITIES
   0
 LINE
   5
-499
+205
 100
 AcDbEntity
   8
@@ -14263,7 +1073,7 @@ CONTINUOUS
   0
 LINE
   5
-49A
+206
 100
 AcDbEntity
   8
@@ -14285,7 +1095,7 @@ CONTINUOUS
   0
 LINE
   5
-49B
+207
 100
 AcDbEntity
   8
@@ -14307,7 +1117,7 @@ CONTINUOUS
   0
 LINE
   5
-49C
+208
 100
 AcDbEntity
   8
@@ -14329,7 +1139,7 @@ CONTINUOUS
   0
 LINE
   5
-49D
+209
 100
 AcDbEntity
   8
@@ -14341,17 +1151,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-351.728
+359.4708333402
  20
-483.96
+452.1073557937
  11
-351.728
+359.4708333402
  21
-443.51
+412.4193557937
   0
 LINE
   5
-49E
+20A
 100
 AcDbEntity
   8
@@ -14363,17 +1173,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-472.695
+441.2893557937
  11
-398.308
+407.5508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-49F
+20B
 100
 AcDbEntity
   8
@@ -14385,17 +1195,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-465.255
+433.8493557937
  11
-398.308
+407.5508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4A0
+20C
 100
 AcDbEntity
   8
@@ -14407,17 +1217,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-457.815
+421.3293557937
  11
-398.308
+407.5508333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-4A1
+20D
 100
 AcDbEntity
   8
@@ -14429,17 +1239,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-452.735
+421.3293557937
  11
-403.388
+412.6308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4A2
+20E
 100
 AcDbEntity
   8
@@ -14451,17 +1261,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-460.175
+428.7693557937
  11
-403.388
+412.6308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-4A3
+20F
 100
 AcDbEntity
   8
@@ -14473,17 +1283,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-467.615
+436.2093557937
  11
-403.388
+412.6308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-4A4
+210
 100
 AcDbEntity
   8
@@ -14495,17 +1305,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-472.695
+448.7293557937
  11
-405.748
+414.9908333402
  21
-467.615
+443.6493557937
   0
 LINE
   5
-4A5
+211
 100
 AcDbEntity
   8
@@ -14517,17 +1327,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-465.255
+441.2893557937
  11
-405.748
+414.9908333402
  21
-460.175
+436.2093557937
   0
 LINE
   5
-4A6
+212
 100
 AcDbEntity
   8
@@ -14539,17 +1349,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-457.815
+433.8493557937
  11
-405.748
+414.9908333402
  21
-452.735
+428.7693557937
   0
 LINE
   5
-4A7
+213
 100
 AcDbEntity
   8
@@ -14561,17 +1371,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-450.375
+418.9693557937
  11
-405.748
+414.9908333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4A8
+214
 100
 AcDbEntity
   8
@@ -14583,17 +1393,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-475.055
+421.3293557937
  11
-405.748
+414.9908333402
  21
-480.135
+426.4093557937
   0
 LINE
   5
-4A9
+215
 100
 AcDbEntity
   8
@@ -14605,17 +1415,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-480.135
+413.8893557937
  11
-410.828
+420.0708333402
  21
-475.055
+418.9693557937
   0
 LINE
   5
-4AA
+216
 100
 AcDbEntity
   8
@@ -14627,17 +1437,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-445.295
+421.3293557937
  11
-410.828
+420.0708333402
  21
-450.375
+426.4093557937
   0
 LINE
   5
-4AB
+217
 100
 AcDbEntity
   8
@@ -14649,17 +1459,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-452.735
+428.7693557937
  11
-410.828
+420.0708333402
  21
-457.815
+433.8493557937
   0
 LINE
   5
-4AC
+218
 100
 AcDbEntity
   8
@@ -14671,17 +1481,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-460.175
+436.2093557937
  11
-410.828
+420.0708333402
  21
-465.255
+441.2893557937
   0
 LINE
   5
-4AD
+219
 100
 AcDbEntity
   8
@@ -14693,17 +1503,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-467.615
+443.6493557937
  11
-410.828
+420.0708333402
  21
-472.695
+448.7293557937
   0
 LINE
   5
-4AE
+21A
 100
 AcDbEntity
   8
@@ -14715,17 +1525,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-480.135
+448.7293557937
  11
-413.188
+422.4308333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-4AF
+21B
 100
 AcDbEntity
   8
@@ -14737,17 +1547,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-472.695
+441.2893557937
  11
-413.188
+422.4308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-4B0
+21C
 100
 AcDbEntity
   8
@@ -14759,17 +1569,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-465.255
+433.8493557937
  11
-413.188
+422.4308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4B1
+21D
 100
 AcDbEntity
   8
@@ -14781,17 +1591,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-457.815
+418.9693557937
  11
-413.188
+422.4308333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-4B2
+21E
 100
 AcDbEntity
   8
@@ -14803,17 +1613,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-450.375
+421.3293557937
  11
-413.188
+422.4308333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-4B3
+21F
 100
 AcDbEntity
   8
@@ -14825,17 +1635,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-445.295
+413.8893557937
  11
-418.268
+427.5108333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4B4
+220
 100
 AcDbEntity
   8
@@ -14847,17 +1657,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-452.735
+421.3293557937
  11
-418.268
+427.5108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4B5
+221
 100
 AcDbEntity
   8
@@ -14869,17 +1679,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-460.175
+428.7693557937
  11
-418.268
+427.5108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-4B6
+222
 100
 AcDbEntity
   8
@@ -14891,17 +1701,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-467.615
+436.2093557937
  11
-418.268
+427.5108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-4B7
+223
 100
 AcDbEntity
   8
@@ -14913,17 +1723,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-475.055
+443.6493557937
  11
-418.268
+427.5108333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-4B8
+224
 100
 AcDbEntity
   8
@@ -14935,17 +1745,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-480.135
+448.7293557937
  11
-420.628
+429.8708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-4B9
+225
 100
 AcDbEntity
   8
@@ -14957,17 +1767,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-472.695
+441.2893557937
  11
-420.628
+429.8708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-4BA
+226
 100
 AcDbEntity
   8
@@ -14979,17 +1789,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-465.255
+433.8493557937
  11
-420.628
+429.8708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4BB
+227
 100
 AcDbEntity
   8
@@ -15001,17 +1811,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-457.815
+418.9693557937
  11
-420.628
+429.8708333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-4BC
+228
 100
 AcDbEntity
   8
@@ -15023,17 +1833,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-450.375
+421.3293557937
  11
-420.628
+429.8708333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-4BD
+229
 100
 AcDbEntity
   8
@@ -15045,17 +1855,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-445.295
+413.8893557937
  11
-425.708
+434.9508333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4BE
+22A
 100
 AcDbEntity
   8
@@ -15067,17 +1877,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-452.735
+421.3293557937
  11
-425.708
+434.9508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4BF
+22B
 100
 AcDbEntity
   8
@@ -15089,17 +1899,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-460.175
+428.7693557937
  11
-425.708
+434.9508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-4C0
+22C
 100
 AcDbEntity
   8
@@ -15111,17 +1921,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-467.615
+436.2093557937
  11
-425.708
+434.9508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-4C1
+22D
 100
 AcDbEntity
   8
@@ -15133,17 +1943,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-475.055
+443.6493557937
  11
-425.708
+434.9508333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-4C2
+22E
 100
 AcDbEntity
   8
@@ -15155,17 +1965,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-472.695
+441.2893557937
  11
-428.068
+437.3108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-4C3
+22F
 100
 AcDbEntity
   8
@@ -15177,17 +1987,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-465.255
+433.8493557937
  11
-428.068
+437.3108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4C4
+230
 100
 AcDbEntity
   8
@@ -15199,17 +2009,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-457.815
+421.3293557937
  11
-428.068
+437.3108333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-4C5
+231
 100
 AcDbEntity
   8
@@ -15221,17 +2031,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-452.735
+421.3293557937
  11
-433.148
+442.3908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4C6
+232
 100
 AcDbEntity
   8
@@ -15243,17 +2053,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-460.175
+428.7693557937
  11
-433.148
+442.3908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-4C7
+233
 100
 AcDbEntity
   8
@@ -15265,17 +2075,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-467.615
+436.2093557937
  11
-433.148
+442.3908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-4C8
+234
 100
 AcDbEntity
   8
@@ -15287,17 +2097,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-353.728
+361.4708333402
  20
-441.51
+410.4193557937
  11
-832.728
+840.4708333402
  21
-441.51
+410.4193557937
   0
 LINE
   5
-4C9
+235
 100
 AcDbEntity
   8
@@ -15309,17 +2119,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-445.295
+413.8893557937
  11
-410.828
+420.0708333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CA
+236
 100
 AcDbEntity
   8
@@ -15331,17 +2141,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-445.295
+413.8893557937
  11
-418.268
+427.5108333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CB
+237
 100
 AcDbEntity
   8
@@ -15353,17 +2163,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-445.295
+413.8893557937
  11
-425.708
+434.9508333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CC
+238
 100
 AcDbEntity
   8
@@ -15375,17 +2185,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-445.295
+413.8893557937
  11
-626.828
+636.0708333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CD
+239
 100
 AcDbEntity
   8
@@ -15397,17 +2207,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-445.295
+413.8893557937
  11
-634.268
+643.5108333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CE
+23A
 100
 AcDbEntity
   8
@@ -15419,17 +2229,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-445.295
+413.8893557937
  11
-641.708
+650.9508333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4CF
+23B
 100
 AcDbEntity
   8
@@ -15441,17 +2251,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-445.295
+413.8893557937
  11
-671.828
+681.0708333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4D0
+23C
 100
 AcDbEntity
   8
@@ -15463,17 +2273,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-445.295
+413.8893557937
  11
-679.268
+688.5108333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4D1
+23D
 100
 AcDbEntity
   8
@@ -15485,17 +2295,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-445.295
+413.8893557937
  11
-686.708
+695.9508333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-4D2
+23E
 100
 AcDbEntity
   8
@@ -15507,17 +2317,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-450.375
+418.9693557937
  11
-681.628
+690.8708333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D3
+23F
 100
 AcDbEntity
   8
@@ -15529,17 +2339,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-450.375
+418.9693557937
  11
-674.188
+683.4308333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D4
+240
 100
 AcDbEntity
   8
@@ -15551,17 +2361,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-450.375
+418.9693557937
  11
-666.748
+675.9908333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D5
+241
 100
 AcDbEntity
   8
@@ -15573,17 +2383,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-450.375
+418.9693557937
  11
-636.628
+645.8708333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D6
+242
 100
 AcDbEntity
   8
@@ -15595,17 +2405,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-450.375
+418.9693557937
  11
-629.188
+638.4308333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D7
+243
 100
 AcDbEntity
   8
@@ -15617,17 +2427,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-450.375
+418.9693557937
  11
-621.748
+630.9908333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D8
+244
 100
 AcDbEntity
   8
@@ -15639,17 +2449,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-450.375
+418.9693557937
  11
-420.628
+429.8708333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4D9
+245
 100
 AcDbEntity
   8
@@ -15661,17 +2471,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-450.375
+418.9693557937
  11
-413.188
+422.4308333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4DA
+246
 100
 AcDbEntity
   8
@@ -15683,17 +2493,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-450.375
+418.9693557937
  11
-405.748
+414.9908333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-4DB
+247
 100
 AcDbEntity
   8
@@ -15705,17 +2515,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-452.735
+421.3293557937
  11
-403.388
+412.6308333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4DC
+248
 100
 AcDbEntity
   8
@@ -15727,17 +2537,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-452.735
+421.3293557937
  11
-410.828
+420.0708333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4DD
+249
 100
 AcDbEntity
   8
@@ -15749,17 +2559,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-452.735
+421.3293557937
  11
-418.268
+427.5108333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4DE
+24A
 100
 AcDbEntity
   8
@@ -15771,17 +2581,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-452.735
+421.3293557937
  11
-425.708
+434.9508333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4DF
+24B
 100
 AcDbEntity
   8
@@ -15793,17 +2603,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-452.735
+421.3293557937
  11
-433.148
+442.3908333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E0
+24C
 100
 AcDbEntity
   8
@@ -15815,17 +2625,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-452.735
+421.3293557937
  11
-619.388
+628.6308333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E1
+24D
 100
 AcDbEntity
   8
@@ -15837,17 +2647,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-452.735
+421.3293557937
  11
-626.828
+636.0708333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E2
+24E
 100
 AcDbEntity
   8
@@ -15859,17 +2669,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-452.735
+421.3293557937
  11
-634.268
+643.5108333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E3
+24F
 100
 AcDbEntity
   8
@@ -15881,17 +2691,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-452.735
+421.3293557937
  11
-641.708
+650.9508333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E4
+250
 100
 AcDbEntity
   8
@@ -15903,17 +2713,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-452.735
+421.3293557937
  11
-649.148
+658.3908333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E5
+251
 100
 AcDbEntity
   8
@@ -15925,17 +2735,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-452.735
+421.3293557937
  11
-664.388
+673.6308333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E6
+252
 100
 AcDbEntity
   8
@@ -15947,17 +2757,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-452.735
+421.3293557937
  11
-671.828
+681.0708333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E7
+253
 100
 AcDbEntity
   8
@@ -15969,17 +2779,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-452.735
+421.3293557937
  11
-679.268
+688.5108333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E8
+254
 100
 AcDbEntity
   8
@@ -15991,17 +2801,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-452.735
+421.3293557937
  11
-686.708
+695.9508333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4E9
+255
 100
 AcDbEntity
   8
@@ -16013,17 +2823,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-452.735
+421.3293557937
  11
-694.148
+703.3908333402
  21
-452.735
+421.3293557937
   0
 LINE
   5
-4EA
+256
 100
 AcDbEntity
   8
@@ -16035,17 +2845,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-457.815
+426.4093557937
  11
-689.068
+698.3108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4EB
+257
 100
 AcDbEntity
   8
@@ -16057,17 +2867,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-457.815
+426.4093557937
  11
-681.628
+690.8708333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4EC
+258
 100
 AcDbEntity
   8
@@ -16079,17 +2889,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-457.815
+426.4093557937
  11
-674.188
+683.4308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4ED
+259
 100
 AcDbEntity
   8
@@ -16101,17 +2911,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-457.815
+426.4093557937
  11
-666.748
+675.9908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4EE
+25A
 100
 AcDbEntity
   8
@@ -16123,17 +2933,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-457.815
+426.4093557937
  11
-659.308
+668.5508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4EF
+25B
 100
 AcDbEntity
   8
@@ -16145,17 +2955,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-457.815
+426.4093557937
  11
-644.068
+653.3108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F0
+25C
 100
 AcDbEntity
   8
@@ -16167,17 +2977,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-457.815
+426.4093557937
  11
-636.628
+645.8708333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F1
+25D
 100
 AcDbEntity
   8
@@ -16189,17 +2999,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-457.815
+426.4093557937
  11
-629.188
+638.4308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F2
+25E
 100
 AcDbEntity
   8
@@ -16211,17 +3021,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-457.815
+426.4093557937
  11
-621.748
+630.9908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F3
+25F
 100
 AcDbEntity
   8
@@ -16233,17 +3043,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-457.815
+426.4093557937
  11
-614.308
+623.5508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F4
+260
 100
 AcDbEntity
   8
@@ -16255,17 +3065,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-457.815
+426.4093557937
  11
-428.068
+437.3108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F5
+261
 100
 AcDbEntity
   8
@@ -16277,17 +3087,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-457.815
+426.4093557937
  11
-420.628
+429.8708333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F6
+262
 100
 AcDbEntity
   8
@@ -16299,17 +3109,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-457.815
+426.4093557937
  11
-413.188
+422.4308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F7
+263
 100
 AcDbEntity
   8
@@ -16321,17 +3131,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-457.815
+426.4093557937
  11
-405.748
+414.9908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F8
+264
 100
 AcDbEntity
   8
@@ -16343,17 +3153,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-457.815
+426.4093557937
  11
-398.308
+407.5508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-4F9
+265
 100
 AcDbEntity
   8
@@ -16365,17 +3175,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-460.175
+428.7693557937
  11
-403.388
+412.6308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FA
+266
 100
 AcDbEntity
   8
@@ -16387,17 +3197,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-460.175
+428.7693557937
  11
-410.828
+420.0708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FB
+267
 100
 AcDbEntity
   8
@@ -16409,17 +3219,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-460.175
+428.7693557937
  11
-418.268
+427.5108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FC
+268
 100
 AcDbEntity
   8
@@ -16431,17 +3241,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-460.175
+428.7693557937
  11
-425.708
+434.9508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FD
+269
 100
 AcDbEntity
   8
@@ -16453,17 +3263,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-460.175
+428.7693557937
  11
-433.148
+442.3908333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FE
+26A
 100
 AcDbEntity
   8
@@ -16475,17 +3285,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-460.175
+428.7693557937
  11
-619.388
+628.6308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-4FF
+26B
 100
 AcDbEntity
   8
@@ -16497,17 +3307,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-460.175
+428.7693557937
  11
-626.828
+636.0708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-500
+26C
 100
 AcDbEntity
   8
@@ -16519,17 +3329,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-460.175
+428.7693557937
  11
-634.268
+643.5108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-501
+26D
 100
 AcDbEntity
   8
@@ -16541,17 +3351,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-460.175
+428.7693557937
  11
-641.708
+650.9508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-502
+26E
 100
 AcDbEntity
   8
@@ -16563,17 +3373,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-460.175
+428.7693557937
  11
-649.148
+658.3908333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-503
+26F
 100
 AcDbEntity
   8
@@ -16585,17 +3395,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-460.175
+428.7693557937
  11
-664.388
+673.6308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-504
+270
 100
 AcDbEntity
   8
@@ -16607,17 +3417,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-460.175
+428.7693557937
  11
-671.828
+681.0708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-505
+271
 100
 AcDbEntity
   8
@@ -16629,17 +3439,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-460.175
+428.7693557937
  11
-679.268
+688.5108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-506
+272
 100
 AcDbEntity
   8
@@ -16651,17 +3461,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-460.175
+428.7693557937
  11
-686.708
+695.9508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-507
+273
 100
 AcDbEntity
   8
@@ -16673,17 +3483,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-460.175
+428.7693557937
  11
-694.148
+703.3908333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-508
+274
 100
 AcDbEntity
   8
@@ -16695,17 +3505,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-465.255
+433.8493557937
  11
-689.068
+698.3108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-509
+275
 100
 AcDbEntity
   8
@@ -16717,17 +3527,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-465.255
+433.8493557937
  11
-681.628
+690.8708333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50A
+276
 100
 AcDbEntity
   8
@@ -16739,17 +3549,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-465.255
+433.8493557937
  11
-674.188
+683.4308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50B
+277
 100
 AcDbEntity
   8
@@ -16761,17 +3571,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-465.255
+433.8493557937
  11
-666.748
+675.9908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50C
+278
 100
 AcDbEntity
   8
@@ -16783,17 +3593,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-465.255
+433.8493557937
  11
-659.308
+668.5508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50D
+279
 100
 AcDbEntity
   8
@@ -16805,17 +3615,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-465.255
+433.8493557937
  11
-644.068
+653.3108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50E
+27A
 100
 AcDbEntity
   8
@@ -16827,17 +3637,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-465.255
+433.8493557937
  11
-636.628
+645.8708333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-50F
+27B
 100
 AcDbEntity
   8
@@ -16849,17 +3659,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-465.255
+433.8493557937
  11
-629.188
+638.4308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-510
+27C
 100
 AcDbEntity
   8
@@ -16871,17 +3681,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-465.255
+433.8493557937
  11
-621.748
+630.9908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-511
+27D
 100
 AcDbEntity
   8
@@ -16893,17 +3703,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-465.255
+433.8493557937
  11
-614.308
+623.5508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-512
+27E
 100
 AcDbEntity
   8
@@ -16915,17 +3725,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-465.255
+433.8493557937
  11
-428.068
+437.3108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-513
+27F
 100
 AcDbEntity
   8
@@ -16937,17 +3747,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-465.255
+433.8493557937
  11
-420.628
+429.8708333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-514
+280
 100
 AcDbEntity
   8
@@ -16959,17 +3769,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-465.255
+433.8493557937
  11
-413.188
+422.4308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-515
+281
 100
 AcDbEntity
   8
@@ -16981,17 +3791,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-465.255
+433.8493557937
  11
-405.748
+414.9908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-516
+282
 100
 AcDbEntity
   8
@@ -17003,17 +3813,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-465.255
+433.8493557937
  11
-398.308
+407.5508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-517
+283
 100
 AcDbEntity
   8
@@ -17025,17 +3835,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-398.308
+407.5508333402
  20
-467.615
+436.2093557937
  11
-403.388
+412.6308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-518
+284
 100
 AcDbEntity
   8
@@ -17047,17 +3857,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+414.9908333402
  20
-467.615
+436.2093557937
  11
-410.828
+420.0708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-519
+285
 100
 AcDbEntity
   8
@@ -17069,17 +3879,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+422.4308333402
  20
-467.615
+436.2093557937
  11
-418.268
+427.5108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51A
+286
 100
 AcDbEntity
   8
@@ -17091,17 +3901,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+429.8708333402
  20
-467.615
+436.2093557937
  11
-425.708
+434.9508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51B
+287
 100
 AcDbEntity
   8
@@ -17113,17 +3923,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-428.068
+437.3108333402
  20
-467.615
+436.2093557937
  11
-433.148
+442.3908333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51C
+288
 100
 AcDbEntity
   8
@@ -17135,17 +3945,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-467.615
+436.2093557937
  11
-619.388
+628.6308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51D
+289
 100
 AcDbEntity
   8
@@ -17157,17 +3967,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-467.615
+436.2093557937
  11
-626.828
+636.0708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51E
+28A
 100
 AcDbEntity
   8
@@ -17179,17 +3989,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-467.615
+436.2093557937
  11
-634.268
+643.5108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-51F
+28B
 100
 AcDbEntity
   8
@@ -17201,17 +4011,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-467.615
+436.2093557937
  11
-641.708
+650.9508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-520
+28C
 100
 AcDbEntity
   8
@@ -17223,17 +4033,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-467.615
+436.2093557937
  11
-649.148
+658.3908333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-521
+28D
 100
 AcDbEntity
   8
@@ -17245,17 +4055,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-467.615
+436.2093557937
  11
-664.388
+673.6308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-522
+28E
 100
 AcDbEntity
   8
@@ -17267,17 +4077,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-467.615
+436.2093557937
  11
-671.828
+681.0708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-523
+28F
 100
 AcDbEntity
   8
@@ -17289,17 +4099,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-467.615
+436.2093557937
  11
-679.268
+688.5108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-524
+290
 100
 AcDbEntity
   8
@@ -17311,17 +4121,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-467.615
+436.2093557937
  11
-686.708
+695.9508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-525
+291
 100
 AcDbEntity
   8
@@ -17333,17 +4143,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-467.615
+436.2093557937
  11
-694.148
+703.3908333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-526
+292
 100
 AcDbEntity
   8
@@ -17355,17 +4165,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-472.695
+441.2893557937
  11
-689.068
+698.3108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-527
+293
 100
 AcDbEntity
   8
@@ -17377,17 +4187,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-472.695
+441.2893557937
  11
-681.628
+690.8708333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-528
+294
 100
 AcDbEntity
   8
@@ -17399,17 +4209,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-472.695
+441.2893557937
  11
-674.188
+683.4308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-529
+295
 100
 AcDbEntity
   8
@@ -17421,17 +4231,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-472.695
+441.2893557937
  11
-666.748
+675.9908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52A
+296
 100
 AcDbEntity
   8
@@ -17443,17 +4253,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-472.695
+441.2893557937
  11
-659.308
+668.5508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52B
+297
 100
 AcDbEntity
   8
@@ -17465,17 +4275,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-472.695
+441.2893557937
  11
-644.068
+653.3108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52C
+298
 100
 AcDbEntity
   8
@@ -17487,17 +4297,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-472.695
+441.2893557937
  11
-636.628
+645.8708333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52D
+299
 100
 AcDbEntity
   8
@@ -17509,17 +4319,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-472.695
+441.2893557937
  11
-629.188
+638.4308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52E
+29A
 100
 AcDbEntity
   8
@@ -17531,17 +4341,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-472.695
+441.2893557937
  11
-621.748
+630.9908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-52F
+29B
 100
 AcDbEntity
   8
@@ -17553,17 +4363,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-472.695
+441.2893557937
  11
-614.308
+623.5508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-530
+29C
 100
 AcDbEntity
   8
@@ -17575,17 +4385,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-433.148
+442.3908333402
  20
-472.695
+441.2893557937
  11
-428.068
+437.3108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-531
+29D
 100
 AcDbEntity
   8
@@ -17597,17 +4407,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+434.9508333402
  20
-472.695
+441.2893557937
  11
-420.628
+429.8708333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-532
+29E
 100
 AcDbEntity
   8
@@ -17619,17 +4429,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+427.5108333402
  20
-472.695
+441.2893557937
  11
-413.188
+422.4308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-533
+29F
 100
 AcDbEntity
   8
@@ -17641,17 +4451,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+420.0708333402
  20
-472.695
+441.2893557937
  11
-405.748
+414.9908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-534
+2A0
 100
 AcDbEntity
   8
@@ -17663,17 +4473,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-403.388
+412.6308333402
  20
-472.695
+441.2893557937
  11
-398.308
+407.5508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-535
+2A1
 100
 AcDbEntity
   8
@@ -17685,17 +4495,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+414.9908333402
  20
-475.055
+443.6493557937
  11
-666.748
+420.0708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-536
+2A2
 100
 AcDbEntity
   8
@@ -17707,17 +4517,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+422.4308333402
  20
-475.055
+443.6493557937
  11
-621.748
+427.5108333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-537
+2A3
 100
 AcDbEntity
   8
@@ -17729,17 +4539,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-410.828
+429.8708333402
  20
-475.055
+443.6493557937
  11
-405.748
+434.9508333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-538
+2A4
 100
 AcDbEntity
   8
@@ -17751,17 +4561,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-413.188
+630.9908333402
  20
-475.055
+443.6493557937
  11
-418.268
+636.0708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-539
+2A5
 100
 AcDbEntity
   8
@@ -17773,17 +4583,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-420.628
+638.4308333402
  20
-475.055
+443.6493557937
  11
-425.708
+643.5108333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-53A
+2A6
 100
 AcDbEntity
   8
@@ -17795,17 +4605,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+645.8708333402
  20
-475.055
+443.6493557937
  11
-634.268
+650.9508333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-53B
+2A7
 100
 AcDbEntity
   8
@@ -17817,17 +4627,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+675.9908333402
  20
-475.055
+443.6493557937
  11
-641.708
+681.0708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-53C
+2A8
 100
 AcDbEntity
   8
@@ -17839,17 +4649,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-475.055
+443.6493557937
  11
-679.268
+688.5108333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-53D
+2A9
 100
 AcDbEntity
   8
@@ -17861,17 +4671,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-475.055
+443.6493557937
  11
-686.708
+695.9508333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-53E
+2AA
 100
 AcDbEntity
   8
@@ -17883,17 +4693,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-480.135
+448.7293557937
  11
-681.628
+690.8708333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-53F
+2AB
 100
 AcDbEntity
   8
@@ -17905,17 +4715,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-480.135
+448.7293557937
  11
-674.188
+683.4308333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-540
+2AC
 100
 AcDbEntity
   8
@@ -17927,17 +4737,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+681.0708333402
  20
-480.135
+448.7293557937
  11
-636.628
+675.9908333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-541
+2AD
 100
 AcDbEntity
   8
@@ -17949,17 +4759,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+650.9508333402
  20
-480.135
+448.7293557937
  11
-629.188
+645.8708333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-542
+2AE
 100
 AcDbEntity
   8
@@ -17971,17 +4781,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-425.708
+643.5108333402
  20
-480.135
+448.7293557937
  11
-420.628
+638.4308333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-543
+2AF
 100
 AcDbEntity
   8
@@ -17993,17 +4803,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-418.268
+636.0708333402
  20
-480.135
+448.7293557937
  11
-413.188
+630.9908333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-544
+2B0
 100
 AcDbEntity
   8
@@ -18015,17 +4825,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-405.748
+434.9508333402
  20
-480.135
+448.7293557937
  11
-410.828
+429.8708333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-545
+2B1
 100
 AcDbEntity
   8
@@ -18037,17 +4847,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+427.5108333402
  20
-480.135
+448.7293557937
  11
-626.828
+422.4308333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-546
+2B2
 100
 AcDbEntity
   8
@@ -18059,17 +4869,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+420.0708333402
  20
-480.135
+448.7293557937
  11
-671.828
+414.9908333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-547
+2B3
 100
 AcDbEntity
   8
@@ -18081,17 +4891,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-472.695
+441.2893557937
  11
-614.308
+623.5508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-548
+2B4
 100
 AcDbEntity
   8
@@ -18103,17 +4913,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-465.255
+433.8493557937
  11
-614.308
+623.5508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-549
+2B5
 100
 AcDbEntity
   8
@@ -18125,17 +4935,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-614.308
+623.5508333402
  20
-457.815
+421.3293557937
  11
-614.308
+623.5508333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-54A
+2B6
 100
 AcDbEntity
   8
@@ -18147,17 +4957,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-452.735
+421.3293557937
  11
-619.388
+628.6308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-54B
+2B7
 100
 AcDbEntity
   8
@@ -18169,17 +4979,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-460.175
+428.7693557937
  11
-619.388
+628.6308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-54C
+2B8
 100
 AcDbEntity
   8
@@ -18191,17 +5001,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-619.388
+628.6308333402
  20
-467.615
+436.2093557937
  11
-619.388
+628.6308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-54D
+2B9
 100
 AcDbEntity
   8
@@ -18213,17 +5023,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-472.695
+448.7293557937
  11
-621.748
+630.9908333402
  21
-467.615
+443.6493557937
   0
 LINE
   5
-54E
+2BA
 100
 AcDbEntity
   8
@@ -18235,17 +5045,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-465.255
+441.2893557937
  11
-621.748
+630.9908333402
  21
-460.175
+436.2093557937
   0
 LINE
   5
-54F
+2BB
 100
 AcDbEntity
   8
@@ -18257,17 +5067,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-457.815
+433.8493557937
  11
-621.748
+630.9908333402
  21
-452.735
+428.7693557937
   0
 LINE
   5
-550
+2BC
 100
 AcDbEntity
   8
@@ -18279,17 +5089,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-450.375
+418.9693557937
  11
-621.748
+630.9908333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-551
+2BD
 100
 AcDbEntity
   8
@@ -18301,17 +5111,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-621.748
+630.9908333402
  20
-475.055
+421.3293557937
  11
-621.748
+630.9908333402
  21
-480.135
+426.4093557937
   0
 LINE
   5
-552
+2BE
 100
 AcDbEntity
   8
@@ -18323,17 +5133,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+840.4708333402
  20
-480.135
+454.1073557937
  11
-626.828
+361.4708333402
  21
-475.055
+454.1073557937
   0
 LINE
   5
-553
+2BF
 100
 AcDbEntity
   8
@@ -18345,17 +5155,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-445.295
+413.8893557937
  11
-626.828
+636.0708333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-554
+2C0
 100
 AcDbEntity
   8
@@ -18367,17 +5177,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-452.735
+421.3293557937
  11
-626.828
+636.0708333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-555
+2C1
 100
 AcDbEntity
   8
@@ -18389,17 +5199,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-460.175
+428.7693557937
  11
-626.828
+636.0708333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-556
+2C2
 100
 AcDbEntity
   8
@@ -18411,17 +5221,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-626.828
+636.0708333402
  20
-467.615
+436.2093557937
  11
-626.828
+636.0708333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-557
+2C3
 100
 AcDbEntity
   8
@@ -18433,17 +5243,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-832.728
+636.0708333402
  20
-485.96
+443.6493557937
  11
-353.728
+636.0708333402
  21
-485.96
+448.7293557937
   0
 LINE
   5
-558
+2C4
 100
 AcDbEntity
   8
@@ -18455,17 +5265,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-480.135
+448.7293557937
  11
-629.188
+638.4308333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-559
+2C5
 100
 AcDbEntity
   8
@@ -18477,17 +5287,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-472.695
+441.2893557937
  11
-629.188
+638.4308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-55A
+2C6
 100
 AcDbEntity
   8
@@ -18499,17 +5309,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-465.255
+433.8493557937
  11
-629.188
+638.4308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-55B
+2C7
 100
 AcDbEntity
   8
@@ -18521,17 +5331,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-457.815
+418.9693557937
  11
-629.188
+638.4308333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-55C
+2C8
 100
 AcDbEntity
   8
@@ -18543,17 +5353,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-629.188
+638.4308333402
  20
-450.375
+421.3293557937
  11
-629.188
+638.4308333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-55D
+2C9
 100
 AcDbEntity
   8
@@ -18565,17 +5375,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-445.295
+413.8893557937
  11
-634.268
+643.5108333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-55E
+2CA
 100
 AcDbEntity
   8
@@ -18587,17 +5397,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-452.735
+421.3293557937
  11
-634.268
+643.5108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-55F
+2CB
 100
 AcDbEntity
   8
@@ -18609,17 +5419,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-460.175
+428.7693557937
  11
-634.268
+643.5108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-560
+2CC
 100
 AcDbEntity
   8
@@ -18631,17 +5441,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-467.615
+436.2093557937
  11
-634.268
+643.5108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-561
+2CD
 100
 AcDbEntity
   8
@@ -18653,17 +5463,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-634.268
+643.5108333402
  20
-475.055
+443.6493557937
  11
-634.268
+643.5108333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-562
+2CE
 100
 AcDbEntity
   8
@@ -18675,17 +5485,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-480.135
+448.7293557937
  11
-636.628
+645.8708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-563
+2CF
 100
 AcDbEntity
   8
@@ -18697,17 +5507,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-472.695
+441.2893557937
  11
-636.628
+645.8708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-564
+2D0
 100
 AcDbEntity
   8
@@ -18719,17 +5529,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-465.255
+433.8493557937
  11
-636.628
+645.8708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-565
+2D1
 100
 AcDbEntity
   8
@@ -18741,17 +5551,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-457.815
+418.9693557937
  11
-636.628
+645.8708333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-566
+2D2
 100
 AcDbEntity
   8
@@ -18763,17 +5573,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-636.628
+645.8708333402
  20
-450.375
+421.3293557937
  11
-636.628
+645.8708333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-567
+2D3
 100
 AcDbEntity
   8
@@ -18785,17 +5595,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-445.295
+413.8893557937
  11
-641.708
+650.9508333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-568
+2D4
 100
 AcDbEntity
   8
@@ -18807,17 +5617,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-452.735
+421.3293557937
  11
-641.708
+650.9508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-569
+2D5
 100
 AcDbEntity
   8
@@ -18829,17 +5639,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-460.175
+428.7693557937
  11
-641.708
+650.9508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-56A
+2D6
 100
 AcDbEntity
   8
@@ -18851,17 +5661,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-467.615
+436.2093557937
  11
-641.708
+650.9508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-56B
+2D7
 100
 AcDbEntity
   8
@@ -18873,17 +5683,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-641.708
+650.9508333402
  20
-475.055
+443.6493557937
  11
-641.708
+650.9508333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-56C
+2D8
 100
 AcDbEntity
   8
@@ -18895,17 +5705,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-472.695
+441.2893557937
  11
-644.068
+653.3108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-56D
+2D9
 100
 AcDbEntity
   8
@@ -18917,17 +5727,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-465.255
+433.8493557937
  11
-644.068
+653.3108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-56E
+2DA
 100
 AcDbEntity
   8
@@ -18939,17 +5749,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-644.068
+653.3108333402
  20
-457.815
+421.3293557937
  11
-644.068
+653.3108333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-56F
+2DB
 100
 AcDbEntity
   8
@@ -18961,17 +5771,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-452.735
+421.3293557937
  11
-649.148
+658.3908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-570
+2DC
 100
 AcDbEntity
   8
@@ -18983,17 +5793,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-460.175
+428.7693557937
  11
-649.148
+658.3908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-571
+2DD
 100
 AcDbEntity
   8
@@ -19005,17 +5815,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-649.148
+658.3908333402
  20
-467.615
+436.2093557937
  11
-649.148
+658.3908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-572
+2DE
 100
 AcDbEntity
   8
@@ -19027,17 +5837,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-472.695
+441.2893557937
  11
-659.308
+668.5508333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-573
+2DF
 100
 AcDbEntity
   8
@@ -19049,17 +5859,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-465.255
+433.8493557937
  11
-659.308
+668.5508333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-574
+2E0
 100
 AcDbEntity
   8
@@ -19071,17 +5881,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-659.308
+668.5508333402
  20
-457.815
+421.3293557937
  11
-659.308
+668.5508333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-575
+2E1
 100
 AcDbEntity
   8
@@ -19093,17 +5903,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-452.735
+421.3293557937
  11
-664.388
+673.6308333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-576
+2E2
 100
 AcDbEntity
   8
@@ -19115,17 +5925,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-460.175
+428.7693557937
  11
-664.388
+673.6308333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-577
+2E3
 100
 AcDbEntity
   8
@@ -19137,17 +5947,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-664.388
+673.6308333402
  20
-467.615
+436.2093557937
  11
-664.388
+673.6308333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-578
+2E4
 100
 AcDbEntity
   8
@@ -19159,17 +5969,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-472.695
+448.7293557937
  11
-666.748
+675.9908333402
  21
-467.615
+443.6493557937
   0
 LINE
   5
-579
+2E5
 100
 AcDbEntity
   8
@@ -19181,17 +5991,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-465.255
+441.2893557937
  11
-666.748
+675.9908333402
  21
-460.175
+436.2093557937
   0
 LINE
   5
-57A
+2E6
 100
 AcDbEntity
   8
@@ -19203,17 +6013,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-457.815
+433.8493557937
  11
-666.748
+675.9908333402
  21
-452.735
+428.7693557937
   0
 LINE
   5
-57B
+2E7
 100
 AcDbEntity
   8
@@ -19225,17 +6035,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-450.375
+418.9693557937
  11
-666.748
+675.9908333402
  21
-445.295
+413.8893557937
   0
 LINE
   5
-57C
+2E8
 100
 AcDbEntity
   8
@@ -19247,17 +6057,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-666.748
+675.9908333402
  20
-475.055
+421.3293557937
  11
-666.748
+675.9908333402
  21
-480.135
+426.4093557937
   0
 LINE
   5
-57D
+2E9
 100
 AcDbEntity
   8
@@ -19269,17 +6079,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-480.135
+413.8893557937
  11
-671.828
+681.0708333402
  21
-475.055
+418.9693557937
   0
 LINE
   5
-57E
+2EA
 100
 AcDbEntity
   8
@@ -19291,17 +6101,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-445.295
+421.3293557937
  11
-671.828
+681.0708333402
  21
-450.375
+426.4093557937
   0
 LINE
   5
-57F
+2EB
 100
 AcDbEntity
   8
@@ -19313,17 +6123,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-452.735
+428.7693557937
  11
-671.828
+681.0708333402
  21
-457.815
+433.8493557937
   0
 LINE
   5
-580
+2EC
 100
 AcDbEntity
   8
@@ -19335,17 +6145,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-460.175
+436.2093557937
  11
-671.828
+681.0708333402
  21
-465.255
+441.2893557937
   0
 LINE
   5
-581
+2ED
 100
 AcDbEntity
   8
@@ -19357,17 +6167,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-671.828
+681.0708333402
  20
-467.615
+443.6493557937
  11
-671.828
+681.0708333402
  21
-472.695
+448.7293557937
   0
 LINE
   5
-582
+2EE
 100
 AcDbEntity
   8
@@ -19379,17 +6189,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-480.135
+448.7293557937
  11
-674.188
+683.4308333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-583
+2EF
 100
 AcDbEntity
   8
@@ -19401,17 +6211,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-472.695
+441.2893557937
  11
-674.188
+683.4308333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-584
+2F0
 100
 AcDbEntity
   8
@@ -19423,17 +6233,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-465.255
+433.8493557937
  11
-674.188
+683.4308333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-585
+2F1
 100
 AcDbEntity
   8
@@ -19445,17 +6255,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-457.815
+418.9693557937
  11
-674.188
+683.4308333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-586
+2F2
 100
 AcDbEntity
   8
@@ -19467,17 +6277,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-674.188
+683.4308333402
  20
-450.375
+421.3293557937
  11
-674.188
+683.4308333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-587
+2F3
 100
 AcDbEntity
   8
@@ -19489,17 +6299,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-445.295
+413.8893557937
  11
-679.268
+688.5108333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-588
+2F4
 100
 AcDbEntity
   8
@@ -19511,17 +6321,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-452.735
+421.3293557937
  11
-679.268
+688.5108333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-589
+2F5
 100
 AcDbEntity
   8
@@ -19533,17 +6343,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-460.175
+428.7693557937
  11
-679.268
+688.5108333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-58A
+2F6
 100
 AcDbEntity
   8
@@ -19555,17 +6365,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-467.615
+436.2093557937
  11
-679.268
+688.5108333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-58B
+2F7
 100
 AcDbEntity
   8
@@ -19577,17 +6387,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-679.268
+688.5108333402
  20
-475.055
+443.6493557937
  11
-679.268
+688.5108333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-58C
+2F8
 100
 AcDbEntity
   8
@@ -19599,17 +6409,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-480.135
+448.7293557937
  11
-681.628
+690.8708333402
  21
-475.055
+443.6493557937
   0
 LINE
   5
-58D
+2F9
 100
 AcDbEntity
   8
@@ -19621,17 +6431,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-472.695
+441.2893557937
  11
-681.628
+690.8708333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-58E
+2FA
 100
 AcDbEntity
   8
@@ -19643,17 +6453,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-465.255
+433.8493557937
  11
-681.628
+690.8708333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-58F
+2FB
 100
 AcDbEntity
   8
@@ -19665,17 +6475,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-457.815
+418.9693557937
  11
-681.628
+690.8708333402
  21
-452.735
+413.8893557937
   0
 LINE
   5
-590
+2FC
 100
 AcDbEntity
   8
@@ -19687,17 +6497,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-681.628
+690.8708333402
  20
-450.375
+421.3293557937
  11
-681.628
+690.8708333402
  21
-445.295
+426.4093557937
   0
 LINE
   5
-591
+2FD
 100
 AcDbEntity
   8
@@ -19709,17 +6519,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-445.295
+413.8893557937
  11
-686.708
+695.9508333402
  21
-450.375
+418.9693557937
   0
 LINE
   5
-592
+2FE
 100
 AcDbEntity
   8
@@ -19731,17 +6541,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-452.735
+421.3293557937
  11
-686.708
+695.9508333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-593
+2FF
 100
 AcDbEntity
   8
@@ -19753,17 +6563,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-460.175
+428.7693557937
  11
-686.708
+695.9508333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-594
+300
 100
 AcDbEntity
   8
@@ -19775,17 +6585,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-467.615
+436.2093557937
  11
-686.708
+695.9508333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-595
+301
 100
 AcDbEntity
   8
@@ -19797,17 +6607,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-686.708
+695.9508333402
  20
-475.055
+443.6493557937
  11
-686.708
+695.9508333402
  21
-480.135
+448.7293557937
   0
 LINE
   5
-596
+302
 100
 AcDbEntity
   8
@@ -19819,17 +6629,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-472.695
+441.2893557937
  11
-689.068
+698.3108333402
  21
-467.615
+436.2093557937
   0
 LINE
   5
-597
+303
 100
 AcDbEntity
   8
@@ -19841,17 +6651,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-465.255
+433.8493557937
  11
-689.068
+698.3108333402
  21
-460.175
+428.7693557937
   0
 LINE
   5
-598
+304
 100
 AcDbEntity
   8
@@ -19863,17 +6673,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-689.068
+698.3108333402
  20
-457.815
+421.3293557937
  11
-689.068
+698.3108333402
  21
-452.735
+426.4093557937
   0
 LINE
   5
-599
+305
 100
 AcDbEntity
   8
@@ -19885,17 +6695,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-452.735
+421.3293557937
  11
-694.148
+703.3908333402
  21
-457.815
+426.4093557937
   0
 LINE
   5
-59A
+306
 100
 AcDbEntity
   8
@@ -19907,17 +6717,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-460.175
+428.7693557937
  11
-694.148
+703.3908333402
  21
-465.255
+433.8493557937
   0
 LINE
   5
-59B
+307
 100
 AcDbEntity
   8
@@ -19929,17 +6739,17 @@ AcDbLine
   6
 CONTINUOUS
  10
-694.148
+703.3908333402
  20
-467.615
+436.2093557937
  11
-694.148
+703.3908333402
  21
-472.695
+441.2893557937
   0
 LINE
   5
-59C
+308
 100
 AcDbEntity
   8
@@ -19951,21 +6761,21 @@ AcDbLine
   6
 CONTINUOUS
  10
-834.728
+842.4708333402
  20
-443.51
+412.4193557937
  11
-834.728
+842.4708333402
  21
-483.96
+452.1073557937
   0
 CIRCLE
   5
-59D
+309
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -19973,19 +6783,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-473.228
+455.9708333402
  20
-451.955
+420.8733557937
  40
 7.5
   0
 CIRCLE
   5
-59E
+30A
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -19993,15 +6803,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-448.228
+480.9708333402
  20
-451.96
+420.8733557937
  40
 7.5
   0
 CIRCLE
   5
-59F
+30B
 100
 AcDbEntity
   8
@@ -20013,15 +6823,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-387.728
+395.4708333402
  20
-451.51
+420.0383557937
  40
 3.1
   0
 ARC
   5
-5A0
+30C
 100
 AcDbEntity
   8
@@ -20033,9 +6843,9 @@ AcDbCircle
   6
 CONTINUOUS
  10
-353.728
+361.4708333402
  20
-443.51
+412.4193557937
  40
 2.0
 100
@@ -20047,7 +6857,7 @@ AcDbArc
   0
 CIRCLE
   5
-5A1
+30D
 100
 AcDbEntity
   8
@@ -20059,15 +6869,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-387.728
+395.4708333402
  20
-451.51
+420.0383557937
  40
 1.6
   0
 CIRCLE
   5
-5A2
+30E
 100
 AcDbEntity
   8
@@ -20079,19 +6889,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-387.728
+395.4708333402
  20
-475.965
+444.4883557937
  40
 3.1
   0
 CIRCLE
   5
-5A3
+30F
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20099,15 +6909,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-360.728
+368.4708333402
  20
-463.735
+432.2633557937
  40
 2.5
   0
 ARC
   5
-5A4
+310
 100
 AcDbEntity
   8
@@ -20119,9 +6929,9 @@ AcDbCircle
   6
 CONTINUOUS
  10
-353.728
+361.4708333402
  20
-483.96
+452.1073557937
  40
 2.0
 100
@@ -20133,7 +6943,7 @@ AcDbArc
   0
 CIRCLE
   5
-5A5
+311
 100
 AcDbEntity
   8
@@ -20145,19 +6955,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-387.728
+395.4708333402
  20
-475.965
+444.4883557937
  40
 1.6
   0
 CIRCLE
   5
-5A6
+312
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20165,19 +6975,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-592.228
+571.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5A7
+313
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20185,19 +6995,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-585.228
+578.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5A8
+314
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20205,19 +7015,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-578.228
+585.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5A9
+315
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20225,19 +7035,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-571.228
+592.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AA
+316
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20245,19 +7055,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-564.228
+599.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AB
+317
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20265,19 +7075,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-557.228
+564.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AC
+318
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20285,19 +7095,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-550.228
+557.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AD
+319
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20305,19 +7115,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-448.228
+550.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AE
+31A
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20325,19 +7135,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-473.228
+529.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5AF
+31B
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20345,19 +7155,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-508.228
+480.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5B0
+31C
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20365,19 +7175,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-522.228
+515.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5B1
+31D
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20385,15 +7195,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-543.228
+455.9708333402
  20
-467.96
+436.4933557937
  40
 1.5
   0
 CIRCLE
   5
-5B2
+31E
 100
 AcDbEntity
   8
@@ -20405,15 +7215,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-798.728
+806.4708333402
  20
-451.51
+420.0383557937
  40
 3.1
   0
 ARC
   5
-5B3
+31F
 100
 AcDbEntity
   8
@@ -20425,9 +7235,9 @@ AcDbCircle
   6
 CONTINUOUS
  10
-832.728
+840.4708333402
  20
-443.51
+412.4193557937
  40
 2.0
 100
@@ -20439,7 +7249,7 @@ AcDbArc
   0
 CIRCLE
   5
-5B4
+320
 100
 AcDbEntity
   8
@@ -20451,15 +7261,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-798.728
+806.4708333402
  20
-451.51
+420.0383557937
  40
 1.6
   0
 CIRCLE
   5
-5B5
+321
 100
 AcDbEntity
   8
@@ -20471,19 +7281,19 @@ AcDbCircle
   6
 CONTINUOUS
  10
-798.728
+806.4708333402
  20
-475.96
+444.4883557937
  40
 3.1
   0
 CIRCLE
   5
-5B6
+322
 100
 AcDbEntity
   8
-0
+AXES
 100
 AcDbCircle
  62
@@ -20491,15 +7301,15 @@ AcDbCircle
   6
 CONTINUOUS
  10
-825.728
+833.4708333402
  20
-463.735
+432.2633557937
  40
 2.5
   0
 ARC
   5
-5B7
+323
 100
 AcDbEntity
   8
@@ -20511,9 +7321,9 @@ AcDbCircle
   6
 CONTINUOUS
  10
-832.728
+840.4708333402
  20
-483.96
+452.1073557937
  40
 2.0
 100
@@ -20525,7 +7335,7 @@ AcDbArc
   0
 CIRCLE
   5
-5B8
+324
 100
 AcDbEntity
   8
@@ -20537,9 +7347,9 @@ AcDbCircle
   6
 CONTINUOUS
  10
-798.728
+806.4708333402
  20
-475.96
+444.4883557937
  40
 1.6
   0
@@ -20667,11 +7477,11 @@ AcDbDictionary
   3
 Model
 350
-5B9
+325
   3
 Layout1
 350
-5BA
+326
   0
 ACDBPLACEHOLDER
   5
@@ -20723,7 +7533,7 @@ BYLAYER
   0
 LAYOUT
   5
-5B9
+325
 102
 {ACAD_REACTORS
 330
@@ -20843,7 +7653,7 @@ Model
  76
 0
 330
-496
+202
 345
 0
 346
@@ -20851,7 +7661,7 @@ Model
   0
 LAYOUT
   5
-5BA
+326
 102
 {ACAD_REACTORS
 330
@@ -20971,7 +7781,7 @@ Layout1
  76
 0
 330
-497
+203
 345
 0
 346
