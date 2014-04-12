@@ -1,0 +1,155 @@
+﻿
+ PART STANDOFF_M3_4MM_       C:\Users\Vaughan\Documents\pro-e-saves\roach_2_asm\standoff_m3_4mm_.prt.1
+
+Units info for the major system 'millimeter Kilogram Sec (mmKs)'
+
+                   Length  mm 
+                     Mass  kg 
+                    Force  mm kg / sec^2
+                     Time  sec 
+              Temperature  C 
+ FEATURES:
+
+
+ FEATURE NUMBER       1
+ INTERNAL FEATURE ID  1
+ TYPE = COORDINATE SYSTEM
+ NAME = CS0
+
+
+    FEATURE IS IN LAYER(S) :
+      CSYS - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       2
+ INTERNAL FEATURE ID  5
+ CHILDREN = 21(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     X Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = SIDE
+
+    FEATURE IS IN LAYER(S) :
+      PLANES - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       3
+ INTERNAL FEATURE ID  7
+ CHILDREN = 21(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Y Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = TOP
+
+    FEATURE IS IN LAYER(S) :
+      PLANES - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       4
+ INTERNAL FEATURE ID  9
+ CHILDREN = 21(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Z Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = FRONT
+
+    FEATURE IS IN LAYER(S) :
+      PLANES - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       5
+ INTERNAL FEATURE ID  21
+ PARENTS = 7(#3) 9(#4) 5(#2) 
+
+
+ PROTRUSION: Revolve
+
+  NO.     ELEMENT NAME         INFO                                             
+  ---     -------------        -------------                                    
+   1      Feature Name         Defined                                          
+   2      Extrude Feat type    Solid                                            
+   3      Material             Add                                              
+   4      Section              Defined                                          
+   4.1    Setup Plane          Defined                                          
+   4.1.1  Sketching Plane      SIDE:F2(DATUM PLANE):STANDOFF_M3_4MM_            
+   4.1.2  View Direction       Side 1                                           
+   4.1.3  Orientation          Top                                              
+   4.1.4  Reference            TOP:F3(DATUM PLANE):STANDOFF_M3_4MM_             
+   4.2    Sketch               Defined                                          
+   5      Feature Form         Solid                                            
+   6      Revolve Axis         Defined                                          
+   7      Revolve Axis Option  Internal Centerline                              
+   8      Direction            Side 2                                           
+   9      Angle                Defined                                          
+   9.1    Side One             Defined                                          
+   9.1.1  Side One Angle       None                                             
+   9.2    Side Two             Defined                                          
+   9.2.1  Side Two Angle       Variable                                         
+   9.2.2  Value                360.0                                            
+
+ SECTION NAME = Section 1 
+
+    FEATURE IS IN LAYER(S) :
+      AXES - OPERATION = SHOWN
+
+ FEATURE'S DIMENSIONS:
+ d0 = (Displayed:) 360
+      (   Stored:) 360.0 ( 0.5, -0.5 ) 
+ d1 = (Displayed:) 2 General_Dims
+      (   Stored:) 2.0 ( 0.1, -0.1 ) 
+ d2 = (Displayed:) 2.1 General_Dims
+      (   Stored:) 2.1 ( 0.1, -0.1 ) 
+ d3 = (Displayed:) 1.15 General_Dims
+      (   Stored:) 1.15 ( 0.1, -0.1 ) 
+ d4 = (Displayed:) 4 General_Dims
+      (   Stored:) 4.0 ( 0.1, -0.1 ) 
+ d5 = (Displayed:) 3.5 General_Dims
+      (   Stored:) 3.5 ( 0.1, -0.1 ) 
+
+ ********************
+
