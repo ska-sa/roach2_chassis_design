@@ -1,9 +1,10 @@
 ROACH 2 Manufacturing Pack
-The manufacturing pack consists of 4 folders:
-documentation – Drawings and Information
+The manufacturing pack consists of 5 folders:
+documentation – Drawings, measurements, information AND the BOM
 dxf – Autocad 2d files
-silkscreens – Silkscreens for the front panel, back panels and back
+silkscreens – Silkscreens for the front panel, back panels and back, in .ai format as requested by AllFab
 stp_files – 3D Step Files
+supporting_documentation - details on the beefed up Virtex FPGA Fansink
 
 A single ROACH 2 Enclosure consists of:
 1 x ROACH 2 CHASSIS
